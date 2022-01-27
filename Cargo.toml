@@ -1,0 +1,12 @@
+[package]
+name = "stm32f3_digital_analyzer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.6.0"
+cortex-m-rt = "0.6.10"
+stm32f3-discovery = "0.7.2"
+panic-halt = "0.2.0"
